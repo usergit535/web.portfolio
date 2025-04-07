@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="welcome-text"></h1>
+        
+    </header>
+    
+</div>
+    <section id="intro">
+        <h2>Introduction to Web Technologies</h2>
+        <p>Web technologies refer to the tools and languages used to create and manage websites. They enable design, functionality, and interactivity on the internet.</p>
+        <ul>
+            <li><strong>HTML (HyperText Markup Language):</strong> Structures web pages with elements like headings, paragraphs, and links.</li>
+            <li><strong>CSS (Cascading Style Sheets):</strong> Enhances design, layout, and responsiveness with colors, fonts, and animations.</li>
+            <li><strong>JavaScript:</strong> Adds interactivity, animations, form validation, and API integration to web pages.</li>
+        </ul>
+    </section>
+    
+    
+    <section id="profile" class="profile-section">
+        <h2>About Me</h2>
+        <div class="profile-container">
+            <img src="profile.jpeg" alt="Profile Picture" class="profile-pic">
+            <div class="about-me">
+               
+                <p>Hi, I'm Neha, a BTech student in Mathematics and Computing. With a strong foundation in algorithms, programming, and analytical thinking, I am passionate about solving real-world problems through logical and computational approaches. I look forward to leveraging my skills in mathematics and computing to innovate and contribute to the tech industry.</p>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="education">
+        <h2>Education</h2>
+        <table class="education-table">
+            <tr>
+                <th>Institution</th>
+                <th>Degree</th>
+                <th>Year</th>
+                <th>Academic details</th>
+            </tr>
+            <tr>
+                <td>Rajiv Gandhi Institute of Petroleum Technology</td>
+                <td>BTech in Mathematics and Computing</td>
+                <td>2023-27</td>
+                <td>8.45</td>
+                
+            </tr>
+            <tr>
+                <td>Sun Shine Residential Public School </td>
+                <td>Senior Secondary (12th)</td>
+                <td>2021-23</td>
+                <td>83.6</td>
+                
+            </tr>
+            <tr>
+                <td>Gyanodaya Gurukul</td>
+                <td>Secondary (10th)</td>
+                <td>2019-21</td>
+                <td>91.2</td>
+                </tr>
+        </table>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <p>HTML</p>
+                <img src="html.png" alt="HTML Icon">
+            </div>
+            <div class="skill">
+                <p>CSS</p>
+                <img src="css.png" alt="CSS Icon">
+            </div>
+            <div class="skill">
+                <p>JavaScript</p>
+                <img src="js.png" alt="JavaScript Icon">
+            </div>
+            <div class="skill">
+                <p>C</p>
+                <img src="c.png" alt="C Icon">
+            </div>
+            <div class="skill">
+                <p>C++</p>
+                <img src="c++.png" alt="C++ Icon">
+            </div>
+            <div class="skill">
+                <p>MySQL</p>
+                <img src="my sql.png" alt="MySQL Icon">
+            </div>
+            <div class="skill">
+                <p>Python</p>
+                <img src="python.jpg" alt="Python Icon">
+            </div>
+            <div class="skill">
+                <p>React.js</p>
+                <img src="react js.png" alt="React.js Icon">
+            </div>
+            <div class="skill">
+                <p>MATLAB</p>
+                <img src="matlab.jpg" alt="MATLAB Icon">
+            </div>
+        </div>
+    </section>
+    
+   
+    <section class="progress-container">
+        <h2>Skills Progress</h2>
+        <div class="skill-label">HTML - 90%</div>
+        <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+        <div class="skill-label">CSS - 85%</div>
+        <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+        <div class="skill-label">Java - 75%</div>
+        <div class="progress-bar"><div class="progress" style="width: 75%;"></div></div>
+        <div class="skill-label">React.js - 80%</div>
+        <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+        <div class="skill-label">C - 70%</div>
+        <div class="progress-bar"><div class="progress" style="width: 70%;"></div></div>
+        <div class="skill-label">C++ - 85%</div>
+        <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+        <div class="skill-label">Python - 88%</div>
+        <div class="progress-bar"><div class="progress" style="width: 88%;"></div></div>
+        <div class="skill-label">MATLAB - 65%</div>
+        <div class="progress-bar"><div class="progress" style="width: 65%;"></div></div>
+        <div class="skill-label">MySQL - 78%</div>
+        <div class="progress-bar"><div class="progress" style="width: 78%;"></div></div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2 style="text-align:center">Contact Me</h2>
+            <p>Email: 23cs3032@rgipt.ac.in</p>
+            <p>Phone: +91 9572940449</p>
+            <p>Location: Amethi, Uttar Pradesh</p>
+            </div>
+            </section>
+
+    
+   
+    
+    <div class="form-wrapper">
+        <form id="contact-form">
+           
+            <div class="form-container">
+                <!-- Left Side -->
+                <div class="form-left">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+    
+                <!-- Right Side -->
+                <div class="form-right">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+            </div>
+    
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    
+    
+
+    
+    
+    <script src="script.js"></script>
+    <div class="quote-box">
+        <p id="quote-text">Click below for an random quote!</p>
+        <button id="quote-btn" onclick="generateQuote()">New Quote</button>
+    </div>
+    <header>
+        <h1 id="welcome-text"></h1>
+        <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+    </header>
+</body>
+</html>
